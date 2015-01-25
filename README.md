@@ -4,11 +4,11 @@ date: "Monday, January 12, 2015"
 output: html_document
 ---
 
-##Overview
+##Getting and Cleaning Data Overview
 ***
 This project demonstrates the ability to collect, work with, and clean a data set. The main objective is achieved by using raw data files to prepare a `tidy dataset` that can be used for later analysis.
 
-A **'tidy dataset'** is presumed based on the following characteristics:
+A `tidy dataset` is presumed based on the following characteristics:
 
 * Each variable measured forms a column.
 * Each observation forms a row.
@@ -29,9 +29,9 @@ The Human Activity Recognition Using Smartphones Dataset [Version 1.0] provides 
 
 Data was captured using the smartphones' embedded accelerometer and gyroscope. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-Upon executing the main R script of this project 'run_analysis.R' the dataset files will be downloaded and extracted, if already not done, to the current working directory. A copy of the dataset can also be directly downloaded by clicking [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+Upon executing the main R script of this project `run_analysis.R` the dataset files will be downloaded and extracted to the directory `UCI HAR Dataset` , if already not done, in the current working directory. A copy of the dataset can also be directly downloaded by clicking [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-The dataset, when extracted, will contain the following raw files used as input data to construct a 'tidy dataset':
+The dataset, when extracted, will contain the following raw files used as input data to construct a `tidy dataset`:
 
 * `README.txt:` Refer to this file for full details on the content of each file
 * `features_info.txt:` Shows information about the variables used on the feature vector.
@@ -72,7 +72,7 @@ Please adhere to the following instructions and guidlines in order to successful
 * The input for the script is the raw data, which will be downloaded and extracted to a folder/directory `UCI HAR Dataset` withing your local working directory.
 * The output is the processed, tidy data which will be written to a text file **'tidy_data.txt'** within your current working directory
 * There are no parameters to the R script
-* Upon execution of the R script `run_analysis.R` the first time, the script may take a few minutes (depending on your internet connection) if the data files have not yet been downloaded to the directory **UCI HAR Dataset**
+* Upon execution of the R script `run_analysis.R` the first time, the script may take a few or as much as 10 minutes (depending on your internet connection) if the data files have not yet been downloaded and extracted to the directory `UCI HAR Dataset`
 
 
 
@@ -90,7 +90,7 @@ The following R packages are required, which can be downloaded from CRAN
 ***
 The follow support files were produced in conjunction with the expected outcome of the project:
 
-* **CodeBook.md:** describes the inputed raw data, the variables, and the transformations steps that was performed to clean up the data. 
-* **A README.md:** (this document) describing the overview of project and clear outline of all steps taken in achieving the objectives.
-* **run_analysis.R:** R script to transform raw data set in a tidy one
+* `CodeBook.md:` describes the inputed raw data, the variables, and the transformations steps that was performed to clean up the data. 
+* `A README.md:` (this document) describing the overview of project and clear outline of all steps taken in achieving the objectives.
+* `run_analysis.R:` R script to transform raw data set in a tidy one
 

@@ -2,7 +2,7 @@
 ***
 This code book is for the output file `tidy_data.txt` which is produced upon successful execution of the R script `run_analysis.R`. It is used as a quick guide to reference information about the input data and transformation steps taken to produce the output file. A brief description about each variable found within the file is also provided in the variables section below.
 
-For full details about the raw data used for this exercise and description of each transformation steps please refer to the [README.MD] file which is also provided along with further support documentation.
+For full details about the raw data used for this exercise and description of each transformation steps please refer to the [README.MD](https://github.com/madfuss/GettingAndCleaningData/blob/master/README.md) file which is also provided along with further support documentation.
 
 
 
@@ -67,7 +67,7 @@ Insert link to script above
 ###Output Data
 ***
 Provide link to file
-The output file ./tidy_data.txt dataset includes the mean and standard deviation of the underlined variables for each  of the 30 volunteers who all performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+The output file [tidy_data.txt](https://github.com/madfuss/GettingAndCleaningData/blob/master/tidy_data.txt) dataset includes the mean and standard deviation of the underlined variables for each  of the 30 volunteers who all performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 
 The final output file contains a total of 60 variables/columns and 180 observations/rows
 
