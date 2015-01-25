@@ -94,6 +94,7 @@ The follow support files were produced in conjunction with the expected outcome 
 * `CodeBook.md:` describes the inputed raw data, the variables, and the transformations steps that was performed to clean up the data. 
 * `A README.md:` (this document) describing the overview of project and clear outline of all steps taken in achieving the objectives.
 * `run_analysis.R:` R script to transform raw data set into a tidy one
+* `tidy_data.txt:` a copy of the output file produced by the R script
 
 
 
