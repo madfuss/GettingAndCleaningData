@@ -54,8 +54,8 @@ The expected outcome of this project measures against achievement of the follow:
 2. Extracting only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. 
-5. From the merged data set , creates a second, independent 'tidy data set' with the average of each variable for each activity and each subject.
-6. Creating a R script name 'run_analysis.R' to implement objectives 1 - 5 as outlined above
+5. From the merged data set , creates a second, independent `tidy data set` with the average of each variable for each activity and each subject.
+6. Creating a R script name `run_analysis.R` to implement objectives 1 - 5 as outlined above
 7. Providing documentation and support files (readme.md and codebook.md)
 
 
@@ -67,12 +67,13 @@ Please adhere to the following instructions and guidlines in order to successful
 
 * Ideally a computer with 'R' installed, at least version 3.1.1
 * Your computer should have at least 600 MB of free hard disc space
-* Download the R script file `run_analysis.R` to your current working directory
+* Download the R script file [run_analysis.R](https://github.com/madfuss/GettingAndCleaningData/blob/master/run_analysis.R) to your current working directory
 * Execute of the R script file `run_analysis.R`
 * The input for the script is the raw data, which will be downloaded and extracted to a folder/directory `UCI HAR Dataset` withing your local working directory.
 * The output is the processed, tidy data which will be written to a text file `tidy_data.txt` within your current working directory
 * There are no parameters to the R script
 * Upon execution of the R script `run_analysis.R` the first time, the script may take a few or as much as 10-15 minutes (depending on your internet connection) if the data files have not yet been downloaded and extracted to the directory `UCI HAR Dataset`
+* Read the [codebook](https://github.com/madfuss/GettingAndCleaningData/blob/master/CodeBook.md) to see the steps taken in getting and cleaning the data
 
 
 
