@@ -63,7 +63,6 @@ Calls the function `calculate_mean_data()` which accepts the result of `extract_
 
 ###Output Data
 ***
-Provide link to file
 The output file [tidy_data.txt](https://github.com/madfuss/GettingAndCleaningData/blob/master/tidy_data.txt) dataset includes the mean and standard deviation of the underlined variables for each  of the 30 volunteers who all performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 
 The final output file contains a total of 60 variables/columns and 180 observations/rows
