@@ -25,6 +25,7 @@ main <- function() {
                 
                 # Step 2: Downloads and extract the raw data file 
                 # download dataset
+                message("The dataset will be downloaded and extracted to the folder [UCI HAR Dataset] and make take 10-15 mins depending or your connection.")
                 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
                 fileName <- "UCI HAR Dataset.zip"
                 download.file(fileUrl, destfile=fileName)

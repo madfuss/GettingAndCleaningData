@@ -70,9 +70,9 @@ Please adhere to the following instructions and guidlines in order to successful
 * Download the R script file `run_analysis.R` to your current working directory
 * Execute of the R script file `run_analysis.R`
 * The input for the script is the raw data, which will be downloaded and extracted to a folder/directory `UCI HAR Dataset` withing your local working directory.
-* The output is the processed, tidy data which will be written to a text file **'tidy_data.txt'** within your current working directory
+* The output is the processed, tidy data which will be written to a text file `tidy_data.txt` within your current working directory
 * There are no parameters to the R script
-* Upon execution of the R script `run_analysis.R` the first time, the script may take a few or as much as 10 minutes (depending on your internet connection) if the data files have not yet been downloaded and extracted to the directory `UCI HAR Dataset`
+* Upon execution of the R script `run_analysis.R` the first time, the script may take a few or as much as 10-15 minutes (depending on your internet connection) if the data files have not yet been downloaded and extracted to the directory `UCI HAR Dataset`
 
 
 
@@ -92,5 +92,9 @@ The follow support files were produced in conjunction with the expected outcome 
 
 * `CodeBook.md:` describes the inputed raw data, the variables, and the transformations steps that was performed to clean up the data. 
 * `A README.md:` (this document) describing the overview of project and clear outline of all steps taken in achieving the objectives.
-* `run_analysis.R:` R script to transform raw data set in a tidy one
+* `run_analysis.R:` R script to transform raw data set into a tidy one
 
+
+
+###References
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
